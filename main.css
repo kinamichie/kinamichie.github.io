@@ -8,7 +8,7 @@ url('https://fonts.googleapis.com/css?family=Acme|Anton|Cantarell|Lusitana|Maven
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size: 16px; 
+    font-size: 12px; 
     line-height: 32px;
     font-family: acme, centurygothic, sans-serif;
     color: black;
