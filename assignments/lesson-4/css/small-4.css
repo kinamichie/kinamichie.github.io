@@ -1,0 +1,67 @@
+@IMPORT
+url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
+
+* { margin: 0; box-sizing: border-box; } 
+
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+header img .heading {
+    display: inLine-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+img {
+    max-width: 25%;
+    float: left;
+}
+header {
+    background-color: #96e5ff;
+    height: 85px;
+}
+h1 {
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 1em;
+    text-align: center;   
+}
+.motto {
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: .5em;
+    text-align: center;
+}
+nav {
+    background-color: #3b5377;
+    padding: .50em;
+}
+
+nav a {
+    color:#fff;
+    padding: 1em 1em;
+    text-decoration: none;
+    line-height: 3em;
+}
+nav li {
+    list-style-type: none;
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 1.25em;
+    display: inLine-block;
+    padding-left: 75px;
+   
+}
+nav a:hover{
+    background-color: #d69c4a;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+nav a.current{
+    background-color: #96e5ff;
+
+}
+h3{
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 1em;
+    text-align: center;
+}
