@@ -11,20 +11,22 @@ url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sa
 header img .heading {
     display: inLine-block;
     vertical-align: middle;
-    margin: 10px;
 }
 img {
-    max-width: 25%;
+    max-width: 20%;
     float: left;
 }
 header {
+    margin: 1px auto;
     background-color: #96e5ff;
-    height: 85px;
+    height: 70px;
+    text-align: ceter;
 }
 h1 {
     font-family: 'Merriweather+Sans', Helvetica;
     font-size: 1em;
-    text-align: center;   
+    text-align: center;
+     padding-top: 15px;  
 }
 .motto {
     font-family: 'Merriweather+Sans', Helvetica;
