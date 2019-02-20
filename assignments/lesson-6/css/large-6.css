@@ -83,7 +83,6 @@ nav a.current{
 .heroph {
     margin: 10px auto;
     background-color: #96e5ff;
-    border: 1 px solid #3b5377;
     width: 98%;
     
 }
@@ -119,7 +118,6 @@ h5 {
 .news {
     width: 80%;
     margin: 10px auto;
-    background-color: light-grey;
     border: 2px solid #3b5377;
     font-family: 'Sarabun', Arial;
     font-size: 1em;

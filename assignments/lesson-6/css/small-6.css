@@ -43,7 +43,7 @@ nav button {
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
-    font-size: 1.6 rem;
+    font-size: 1.6rem;
     color: #fff;
 }
 nav {
@@ -86,7 +86,5 @@ h3{
 .heroph {
         margin: 10px auto;
         background-color: #96e5ff;
-        border: 1 px solid #3b5377;
         width: 98%;        
-    }
 }
