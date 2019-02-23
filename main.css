@@ -2,8 +2,7 @@
 /* You may use #HEX or color names */
 
 /* * is a wildcard referring to all elements. */
-@import
-url('https://fonts.googleapis.com/css?family=Acme|Anton|Cantarell|Lusitana|Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Acme|Anton|Cantarell|Lusitana|Maven+Pro');
 
 * { margin: 0; box-sizing: border-box; } 
 
