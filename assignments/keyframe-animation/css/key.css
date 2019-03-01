@@ -7,11 +7,11 @@
     margin-top: -34px;
     position: relative;
     top: 34px;
-    transform: translateX(-800);
-    animation: logomove 5s infinite;
+    transform: translateX(800);
+    animation: logomove 3s infinite;
     animation-direction: reverse;
 }
-/*
+
 @keyframes logomove {
     
     0% {
@@ -21,7 +21,7 @@
     100% {
         transform: translateX(0) rotate(360deg);
     }
-}*/
+
 /*
 @keyframes logomove {
     from {
@@ -30,9 +30,8 @@
     to {
         top: 200px;
     }
-    }
-*/
-    @keyframes logomove {
+  */
+/*@keyframes logomove {
     0% {
         top: 0px;
         left: 0px;
@@ -51,9 +50,9 @@
     100% {
         top: 0px;
         left: 0px;
-    }
-
-/*@keyframes logomove {
+    }*/
+/*
+@keyframes logomove {
     from {left: 0px;}
     to {left: 300px;}
 }*/

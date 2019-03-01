@@ -88,3 +88,9 @@ h3{
         background-color: #96e5ff;
         width: 98%;        
 }
+.bottom {
+    text-align: center;
+    font-family: 'Merriweather+Sans', Helvetica;
+    background-color: #3b5377;
+    color: #fff
+}
