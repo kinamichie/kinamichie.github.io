@@ -216,6 +216,9 @@
         text-align: center;
         color: #3b5377;
     }
+    #places article img {
+        width: 100%
+    }
     
     
     .clearfix:after {
