@@ -44,9 +44,9 @@
                     <section id="places">
 
                     </section>
-                     <script>                                          
+                     <script>                                       
 
-                        var section = document.querySelector('section');
+                        var section = document.getElementById('places');
                             var requestURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
                             var request = new XMLHttpRequest();
                             request.open('GET', requestURL);
@@ -61,6 +61,7 @@
                         var place = jsonObj['towns'];
                             
                         for (var i = 0; i < place.length; i++) {
+                            if (place[i].name=="Preston" || place[i].name=="Soda Springs" || place[i].name=="Fish Haven"){
                             var myArticle = document.createElement('article');
                             var myH2 = document.createElement('h2');
                             var myH4 = document.createElement('h4');
@@ -95,7 +96,7 @@
                             myArticle.appendChild(myList);
 
                             section.appendChild(myArticle);
-                        }
+                        }}
                         }
                     </script>
                  </main>
