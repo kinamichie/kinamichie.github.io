@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Assignment lesson-4 Kina Michie CIT 230">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet"  href="css/small.css">
+        <link rel="stylesheet"  href="css/medium.css">
+        <link rel="stylesheet"  href="css/large.css">
+        
+        <script src="scripts/hamburger.js"></script>
+        
+        <title>Preston Town</title>
+    </head>
+    <body>
+        <div id="content">
+            <header id="heading">               
+                    <img id="logo" src="images/weather-logo.jpg" alt="A picture of the weather site logo">
+                <div class="top">   
+                    <h1>Our Weather Forecast</h1> 
+                    <div class="motto">
+                            <h2>Rain or shine, we're here for you!</h2>
+                    </div>
+                </div>
+            </header>         
+            
+                <nav class="clearfix">
+                    <div class="dropdown"></div>
+                        <button onclick="toggleMenu()">&#9776;Menu</button>
+                    <div class="dropdown-content">
+                        <ul id="primaryNav" class="hide">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a class="current" href="preston-10.html">Preston</a></li>
+                            <li><a href="sodasprings.html">Soda Springs</a></li>
+                            <li><a href="fishhaven.html">Fish Haven</a></li>
+                            <li><a href="stormcenter.html">Storm Center</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+
+                        </ul>
+                    </div>               
+                 </nav>
+        
+            <main class="clearfix">
+                
+                 <h3>Preston Idaho</h3>
+                    <div class="firstpicture">
+                        <img class="heroph" src="images/preston-6-image.jpg" alt="A picture of a sunny day" sizes="50vw" 
+                            srcset="images/preston-6-image-small.jpg 500w,
+                                images/preston-6-image-large.jpg 1100w" >                                                 
+                            <section class="weatheroverlay">
+                                <h4><u>Weather Summary</u></h4>
+                                <p>Currently: <span id="curr"></span></p>   
+                                <p>Temperature: <span id="tempfInput"></span> &deg; F</p>                                
+                                <p>Humidity: <span id="humid">&#37;</span></p>
+                                <p>Wind Speed: <span id="speedInput"></span> mph</p>
+                                <p>Wind Chill: <span id="answer"></span></p>                                                              
+                            </section>                           
+                    </div>
+                                
+               <section class="forecast">
+                   <h5>5 Day Forecast</h5>
+                   <div class="fiveday"></div>
+               </section>
+                                      
+                <article class="news">
+                            <h6>Article heading</h6>
+                                <img id="winter" src="images/weather-2.jpeg" alt="A picture of a little girl in the snow">
+                                    <p>Lorem ipsum dolor sit amet, ut iusto impetus vituperata cum, usu tractatos voluptaria id. Ei elitr tritani vix, clita propriae ne vix. Fugit laboramus temporibus an vix, eu tollit quidam quo, ex amet persius eos. Ea sit putant eirmod, zril virtute et vis.
+
+                                    Eum ullum homero et, tation noluisse qui ad. Eu quo natum possit utroque, eos nullam dictas urbanitas ei. Eos at ubique detraxit moderatius. Ut his munere partiendo referrentur. Ad virtute sanctus sea.
+                                    
+                                    Est an omnis tibique denique, doming habemus patrioque ex nam. An eligendi copiosae mea. Paulo nullam vis id, ea per exerci facete, sed tempor audiam philosophia at. Pri odio consul ei, quidam honestatis et quo, sed quidam mentitum id. Vis ne quem dignissim, ad conceptam intellegat usu.
+                                    
+                                    Nulla praesent definitionem ut mea. No sed atqui malorum, sea cu adipiscing delicatissimi, his vocent propriae verterem ex. Pri dicam blandit aliquando ea, dolorem vivendo erroribus id sit, mel ne essent melius scaevola. Ne sed purto nemore forensibus. Sed ei posse sanctus maluisset, vix ad maluisset vituperata, mundi disputando an usu.
+                                    
+                                    Ei dicta tollit mel. Vix illud platonem ei, vis oratio epicurei gloriatur et. Id mea facilisis temporibus. Ne eam virtute fabulas deleniti, an eum nullam persius deserunt. Altera labitur nostrud vix ne, docendi expetenda cum in. Vis audire scripta ei, in eam eius inimicus.
+                                    
+                                    In civibus ponderum delicatissimi has, usu ipsum senserit eu. Vis homero malorum percipitur in. In sit cibo audiam scripta, te vim inermis prodesset, ea sit iudico intellegat. Sea ad elitr utamur. Te sumo habeo tantas eos.
+                                    
+                                    Pro percipit lobortis appellantur ne, amet omnium eum cu, mei odio antiopam aliquando ei. Option corrumpit has id. Te quas nemore fabulas has, prima doming democritum ea has, porro utroque pertinacia in nam. Te duo zril liberavisse suscipiantur, an est congue denique. Ea vis consetetur sadipscing.
+                                    
+                                    Ex nec nihil everti alterum, in his oratio epicuri lucilius, ad vis euripidis elaboraret. Porro moderatius in vis. Vel illud mucius in, duo dicant omittantur cu. Id ius graeci omnesque, per alii numquam ex.
+                                    
+                                    Ut nam tibique intellegebat. Assum blandit duo cu, nisl ancillae consetetur te usu. Nam eu case bonorum recusabo, mollis oporteat inciderint te eam. Eam at feugait assentior, ne nam graece suscipiantur. Eam ad nobis laudem audiam, in soleat quaestio imperdiet vis, et malis animal vim.
+                                    
+                                    Ea nam aeque definiebas. Alienum scaevola definitionem in nec. Eu usu populo quaerendum. No qui prima erant, debet nominavi mei ne. Melius labitur at vel.</p>
+                        
+                        
+                </article>
+                
+                <section class="sec3">
+
+                    <h6>The Weather Forcast</h6>
+
+                        <p>contact information and a map will go here</p>
+                </section>
+            </main>
+            <footer>
+                <div class="bottom">&copy;2019 The Weather Forecast | Kina Michie | <span id="output"></span>
+                    
+                    <script src="scripts/currentdate.js"></script>
+                </div>  
+            </footer>
+          </div> 
+        <script src="scripts/curweather.js"></script>
+        <script src="scripts/windchill.js"></script>
+        
+              
+    </body>
+</html>

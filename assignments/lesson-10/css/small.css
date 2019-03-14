@@ -1,8 +1,8 @@
+@IMPORT url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
+
 @media only screen and (max-width: 35rem) {
     
-    html {
-        font-family:'Merriweather+Sans', Helvetica, Arial;
-    }
+    
     
     * { margin: 0; box-sizing: border-box; } 
     #content {
@@ -15,9 +15,9 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        margin: 1px auto;
+        margin: auto;
         background-color: #96e5ff;
-        padding: 1em 1em 1em 1em;
+        
     }
     .top {
         display: flex;
@@ -45,6 +45,7 @@
     nav {
         background-color: #3b5377;
         font-family: 'Merriweather+Sans', Helvetica;
+        flex-direction: row;
     }
     nav ul {
         list-style-type: none;
@@ -52,9 +53,9 @@
         margin: 0;
     }
     nav ul li a {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        /*display: flex;
+        justify-content: center;*/
+        
         padding: .8rem 2%;
         color: #fff;
         text-align: center;
