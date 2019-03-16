@@ -214,16 +214,30 @@
     h4 {
         font-style: italic;
     }
-    h2, h4, p, ul {
+    h2, h4, p {
         font-family: 'Merriweather+Sans', Helvetica;
         text-align: center;
         color: #3b5377;
+        padding: 10px 10px 10px 10px;
     }
     #places article img {
-        width: 100%
+        width: 100%;
+        padding-top: 10px;
     }
-    
-    
+    .sec3 {
+        text-align: center;
+        position: relative;
+        height: auto;
+        background-color: #96e5ff;
+    }
+    #events ul {
+        font-family: 'Merriweather+Sans', Helvetica;
+        text-align: center;
+        color: #3b5377;
+        padding: 10px 10px 10px 10px;
+        font-size:20px;
+        margin-top: -100px;
+    }
     .clearfix:after {
         content: "";
         display: table;
