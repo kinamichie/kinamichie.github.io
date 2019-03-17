@@ -238,6 +238,22 @@
         font-size:20px;
         margin-top: -100px;
     }
+    .forecast {
+        position: relative;
+        margin: 10px auto;
+        width: 50%;
+        color: #fff;
+        background-color: #3b5377;
+        font-size: 3em;
+        
+    }
+    #high-temperatures {
+        display: flex;
+        align-content: center;
+        padding: 1em 1em 1em 1em;
+        margin: 1em auto;
+    }
+  
     .clearfix:after {
         content: "";
         display: table;
