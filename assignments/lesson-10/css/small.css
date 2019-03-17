@@ -190,12 +190,13 @@
     }
     footer {
         width: 100%;
-        height: 60px;
+        height: 30px;
         text-align: center;
         font-family: 'Merriweather+Sans', Helvetica;
         background-color: #3b5377;
-        color: #fff
-        
+        color: #fff;
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
     .thankyou {
         font-family: 'Merriweather+Sans', Helvetica;
@@ -225,10 +226,27 @@
         padding-top: 10px;
     }
     .sec3 {
-        text-align: center;
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: space-around;
         position: relative;
-        height: auto;
         background-color: #96e5ff;
+    }
+    .info {
+        padding-top: 6em;
+        padding-left: 3em;
+    }
+    .mapouter {
+        padding-left: 6em;
+        padding-bottom: 6em;
+        text-align:right;
+        height:500px;
+        width:600px;
+    }
+    .gmap_canvas{
+        overflow:hidden;
+        background:none!important;
+        height:500px;width:600px;
     }
     #events ul {
         font-family: 'Merriweather+Sans', Helvetica;
@@ -244,7 +262,7 @@
         width: 50%;
         color: #fff;
         background-color: #3b5377;
-        font-size: 3em;
+        font-size: 2em;
         
     }
     #high-temperatures {
