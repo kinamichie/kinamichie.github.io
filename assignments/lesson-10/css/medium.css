@@ -1,6 +1,6 @@
 @IMPORT url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
 
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 45em) {
     
     
     * { margin: 0; box-sizing: border-box; } 
