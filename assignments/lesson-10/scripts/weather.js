@@ -11,13 +11,11 @@ forecastRequest.onload = function() {
     
     var number=1;
     for (var i=0; i<forecastData.list.length; i++) { 
-        forecastData.list[i].dt_txt.includes("18:00:00");
-        
-        if (true){
+        if (forecastData.list[i].dt_txt.includes("18:00:00")) {
             var weekDay = new Date().getDay()+number;
             if(weekDay > 6){
                 weekDay = weekDay%7;
-            }            
+            }
     
             switch (weekDay) {
                 case 0:weekDay = "Sun";break;
