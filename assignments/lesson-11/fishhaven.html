@@ -11,7 +11,7 @@
         
         <script src="scripts/hamburger.js"></script>
         
-        <title>Preston Town</title>
+        <title>Fish Haven</title>
     </head>
     <body>
         <div id="content">
@@ -31,9 +31,9 @@
                     <div class="dropdown-content">
                         <ul id="primaryNav" class="hide">
                             <li><a href="index.html">Home</a></li>
-                            <li><a class="current" href="preston-10.html">Preston</a></li>
+                            <li><a href="preston.html">Preston</a></li>
                             <li><a href="sodasprings.html">Soda Springs</a></li>
-                            <li><a href="fishhaven.html">Fish Haven</a></li>
+                            <li><a class="current" href="fishhaven.html">Fish Haven</a></li>
                             <li><a href="stormcenter.html">Storm Center</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
 
@@ -43,12 +43,9 @@
         
             <main class="clearfix">
                 
-                 <h3>Preston Idaho</h3>
+                 <h3>Fish Haven, Idaho</h3>
                     <div class="firstpicture">
-                        <img class="heroph" src="images/preston-6-image.jpg" alt="A picture of a sunny day" sizes="90vw" 
-                            srcset="images/preston-6-image-small.jpg 500w,
-                                images/preston-6-image-large.jpg 1100w" >                                                 
-                            <section class="weatheroverlay">
+                        <img class="heroph" src="images/fish-haven-2.jpg" alt="aA view of Bear Lake with a rainbow over the lake"> <section class="weatheroverlay">
                                 <h4><u>Weather Summary</u></h4>
                                 <p>Currently: <span id="curr"></span></p>   
                                 <p>Temperature: <span id="tempfInput"></span> &deg; F</p>                                
@@ -58,37 +55,38 @@
                             </section>                           
                     </div>
                                 
-                    <table class="forecast">
-                        <th colspan="5">5 Day Forecast</th>
-                            <tr>
-                                <td><span id= "day1"></span></td>
-                                <td><span id= "day2"></span></td>
-                                <td><span id= "day3"></span></td>
-                                <td><span id= "day4"></span></td>
-                                <td><span id= "day5"></span></td>               
-                            </tr>
-                            <tr>
-                                <td><span id="cc-img1" src="" alt=""></span></td>
-                                <td><span id="cc-img2" src="" alt=""></span></td>
-                                <td><span id="cc-img3" src="" alt=""></span></td>
-                                <td><span id="cc-img4" src="" alt=""></span></td>
-                                <td><span id="cc-img5" src="" alt=""></span></td>
-                            </tr>
-                            <tr>
-                                <td><span id= "hight1"></span></td>
-                                <td><span id= "hight2"></span></td>
-                                <td><span id= "hight3"></span></td>
-                                <td><span id= "hight4"></span></td>
-                                <td><span id= "hight5"></span></td>
-                            </tr>                 
-                    </table>
+               <section class="forecast">
+                   <h5>5 Day Forecast</h5>
+                   <div class="fiveday">
+                       <span id= "day1"></span> 
+                       <span id= "day2"></span> 
+                       <span id= "day3"></span> 
+                       <span id= "day4"> </span>
+                       <span id= "day5"></span>
+                   </div>
+                   <div id="weather-pic">
+                       <div id="cc-img1"></div>
+                       <div id="cc-img2"></div>
+                       <div id="cc-img3"></div>
+                       <div id="cc-img4"></div>
+                       <div id="cc-img5"></div>
+                        
+                    </div>
+                    <div id="high-temperatures">
+                        <div id= "hight1"></div>  
+                        <div id= "hight2"></div> 
+                        <div id= "hight3"></div>
+                        <div id= "hight4"></div>
+                        <div id= "hight5"></div>
+                    </div>
+               </section>
                 <section class="pevent">
                     <h3>Special Events</h3>
                     <div id="events"></div>
                 </section>                      
                 <article class="news">
                             <h6>Article heading</h6>
-                                <img id="winter" src="images/weather-2.jpeg" alt="A picture of a little girl in the snow">
+                                <img id="winter" src="images/fish-haven-3.jpeg" alt="A close-up picture of a couple of large trout in the lake">
                                     <p>Lorem ipsum dolor sit amet, ut iusto impetus vituperata cum, usu tractatos voluptaria id. Ei elitr tritani vix, clita propriae ne vix. Fugit laboramus temporibus an vix, eu tollit quidam quo, ex amet persius eos. Ea sit putant eirmod, zril virtute et vis.
 
                                     Eum ullum homero et, tation noluisse qui ad. Eu quo natum possit utroque, eos nullam dictas urbanitas ei. Eos at ubique detraxit moderatius. Ut his munere partiendo referrentur. Ad virtute sanctus sea.
@@ -135,7 +133,7 @@
           </div>
             <script src="scripts/weather.js"></script>
             <script src="scripts/windchill.js"></script>
-            <script src="scripts/preston-events.js"></script>
+            <script src="scripts/fish-events.js"></script>
             <script src="scripts/currweather.js"></script>
        
         

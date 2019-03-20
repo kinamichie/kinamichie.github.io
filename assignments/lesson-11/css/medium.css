@@ -1,0 +1,86 @@
+@IMPORT url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
+
+@media only screen and (min-width: 45em) {
+    
+    
+    * { margin: 0; box-sizing: border-box; } 
+    #content {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    #heading {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 1px auto;
+        background-color: #96e5ff;
+        padding: 1em 1em 1em 1em;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    h1 {
+        font-family: 'Merriweather+Sans', Helvetica;
+        font-size: 2em;
+        padding-left: 1em;
+      }
+    .motto {
+        font-family: 'Merriweather+Sans', Helvetica;
+        font-size: .75em;
+        text-align: center;
+    }
+    nav button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+    nav {
+        background-color: #3b5377;
+        font-family: 'Merriweather+Sans', Helvetica;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: .8rem 2%;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    nav ul li.current a { 
+        background-color: #96e5ff;
+        color: #3b5377;
+    }
+    nav ul li a:hover {
+        background-color: #d69c4a;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px 5px;
+    
+    }
+    nav ul.hide {
+        display: none;
+    }
+    #places {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 2em;
+        grid-row-gap: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    
+    }

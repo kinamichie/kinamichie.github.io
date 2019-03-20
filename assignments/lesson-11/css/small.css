@@ -256,31 +256,14 @@
         font-size:20px;
         margin-top: -100px;
     }
-    #ssevents ul {
-        font-family: 'Merriweather+Sans', Helvetica;
-        text-align: center;
-        color: #3b5377;
-        padding: 10px 10px 10px 10px;
-        font-size:20px;
-        margin-top: -100px;
-    }
     .forecast {
         position: relative;
-        display: flex;
-        justify-content: center;
         margin: 10px auto;
         width: 50%;
         color: #fff;
-        background-color: #3b5377;       
-    }
-    .forecast th {
-        font-size: 50px;
-        align-content: center;
-    }
-    .forecast tr td {
-        align-content: center;
-        padding: 10px;
-        font-size: 30px;
+        background-color: #3b5377;
+        font-size: 1em;
+        
     }
     #high-temperatures {
         display: flex;
