@@ -36,10 +36,10 @@ forecastRequest.onload = function() {
 
         //weather icon
         let icon = "http://openweathermap.org/img/w/" + forecastData.list[i].weather[0].icon + ".png";
-        //let des = forecastData.list[i].weather[0].description;      
+        let des = forecastData.list[i].weather[0].description;      
         
         document.getElementById('cc-img' + number).setAttribute('src', icon);
-        //document.getElementById('cc=img' + number).setAttribute('alt', des);
+        document.getElementById('cc-img' + number).setAttribute('alt', des);
 
         //temp 
         document.getElementById('hight' + number).innerHTML=forecastData.list[i].main.temp + "&deg" + "F";
