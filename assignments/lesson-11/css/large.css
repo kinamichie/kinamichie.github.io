@@ -129,15 +129,15 @@
     h6 {
         font-family: 'Merriweather+Sans', Helvetica;
         font-size: 3em;
-    }
-    .bottom {
-        text-align: center;
-        font-family: 'Merriweather+Sans', Helvetica;
-        background-color: #3b5377;
-        color: #fff
-    }
+    }    
     .weather-heading {
         font-size: 3em;
+        
+    }
+    .sec3 {        
+        display: grid;        
+        grid-template-columns: auto auto;
+        justify-content: center;
         
     }
     .container {

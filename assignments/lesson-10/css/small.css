@@ -271,16 +271,18 @@
         margin: 10px auto;
         width: 50%;
         color: #fff;
-        background-color: #3b5377;       
+        background-color: #3b5377;
+        font-family:'Merriweather+Sans', Helvetica;   
     }
     .forecast th {
-        font-size: 50px;
+        font-size: 40px;
         align-content: center;
+        font-family:'Merriweather+Sans', Helvetica;       
     }
     .forecast tr td {
         align-content: center;
         padding: 10px;
-        font-size: 30px;
+        font-size: 30px;        
     }
     #high-temperatures {
         display: flex;
