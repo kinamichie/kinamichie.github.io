@@ -16,8 +16,7 @@
         flex-wrap: nowrap;
         justify-content: center;
         margin: auto;
-        background-color: #96e5ff;
-        
+        background-color: #96e5ff;    
     }
     .top {
         display: flex;
@@ -29,13 +28,13 @@
         font-family: 'Merriweather+Sans', Helvetica;
         font-size: 2em;
         padding-left: 1em;
-      }
+    }
     .motto {
         font-family: 'Merriweather+Sans', Helvetica;
         font-size: .5em;
         text-align: center;
     }
-    nav button {
+    nav button { 
         margin: .2rem 2%;
         background-color: transparent;
         border: none;
@@ -51,6 +50,7 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
+        text-align: center;
     }
     nav ul li a {                
         padding: .8rem 2%;
@@ -81,7 +81,27 @@
     .heroph {
             margin: 10px auto;
             background-color: #96e5ff;
-            width: 98%;        
+            width: 98%; 
+                 
+    }
+    .firstpicture {
+        margin: 10px auto;
+        position: relative;
+        width: 96%
+    }
+    .weatheroverlay {
+        position: absolute;
+        top: 50px;
+        left: 5px;
+        background: radial-gradient(#96e5ff,#3b5377);
+        border: .5px #3b5377;
+        padding: .25rem;
+        box-shadow: 0 0 10px;
+        font-size: .5em;
+        font-family: 'Merriweather+Sans', Helvetica;
+    }
+    #winter {
+        max-width: 80%;
     }
     /*gallery*/
     .container {
@@ -108,6 +128,9 @@
     .img-6:hover {
         box-shadow: 0 0 50px #3b5377;
     }
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+        width: 80%;
+    }
     .weather-heading {
         display: flex;
         justify-content: start;
@@ -117,15 +140,18 @@
     #stormpic {
         margin: 0;
         width: 100%;
-    }
-   
+    }   
     #events ul {
         font-family: 'Merriweather+Sans', Helvetica;
-        text-align: center;
-        color: #3b5377;
+        text-align: center;        
         padding: 10px 10px 10px 10px;
         font-size:20px;
-        margin-top: -100px;
+        margin-top: -100px;        
+    }
+    .pevent {
+        background-color: #3b5377;
+        color: #fff;
+        padding-left: 3em;
     }
     .forecast {
         position: relative;
@@ -133,30 +159,34 @@
         width: 50%;
         color: #fff;
         background-color: #3b5377;
-        font-size: 1em;
-        
+        font-size: 1em;        
     }
     #high-temperatures {
         display: flex;
         align-content: center;
         padding: 1em 1em 1em 1em;
         margin: 1em auto;
-    }
-    /*.sec3 {
-        display: flex;
-        flex-flow: row nowrap;
-        align-content: space-around;
-        position: relative;
-        background-color: #96e5ff;
-    }*/
+    }    
     .info {
         padding-top: 3em;
         padding-left: 6em;
     } 
+    h6 {
+        font-family: 'Merriweather+Sans', Helvetica;
+        font-size: 1em;
+        text-align: center;
+    } 
+    .sec3 {        
+        display: grid;        
+        grid-template-columns: auto;
+        justify-content: center;
+        background-color: #96e5ff;
+    }
     .mapouter{
         position:relative;
         text-align:right;
-        height:250px;width:400px;
+        height:250px auto;
+        width:400px auto;
         padding-top: 2em;
         padding-left: 2em;
     }
@@ -171,6 +201,7 @@
     #bottom p {
         color:#fff;
     }
+  
     /*storm center*/
     .container2 {
         border-radius: 5px;
@@ -178,7 +209,7 @@
         padding: 20px;
         margin: 2rem auto;
         border:2px solid;
-        padding: 2rem;
+        padding-left: 2em; 
         }
     label {
         padding: 12px 12px 12px 0;

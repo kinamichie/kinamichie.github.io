@@ -107,10 +107,6 @@
         width: 40%;
         padding: 2em 2em 2em 2em;
     }
-    h6 {
-        font-family: 'Merriweather+Sans', Helvetica;
-        font-size: 2em;
-    } 
     .sec3 {        
         display: grid;        
         grid-template-columns: auto auto;

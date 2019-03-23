@@ -1,12 +1,23 @@
 let forecastRequest = new XMLHttpRequest();
-let apiURLstring3 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=bf97aaaa16a02c56f0db0c5d12eb5eed';
-forecastRequest.open('Get', apiURLstring3, true);
+let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=bf97aaaa16a02c56f0db0c5d12eb5eed';
+forecastRequest.open('Get', apiURLstring2, true);
 forecastRequest.send();
 
 forecastRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
    
-    console.log(forecastData);       
+    console.log(forecastData);   
+    
+    document.getElementById('tempfInput').innerHTML = forecastData.list[0].main.temp;
+    document.getElementById('curr').innerHTML = forecastData.list[0].weather[0].main;
+    document.getElementById('humid').innerHTML = forecastData.list[0].main.humidity;
+    document.getElementById('speedInput').innerHTML = forecastData.list[0].wind.speed;
+    
+    var temp = forecastData.list[0].main.temp;
+	var speed = forecastData.list[0].wind.speed;
+	/*do the math for data*/
+	var chill = 35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temp * Math.pow(speed, 0.16)); 
+	document.getElementById('answer').innerHTML = chill.toFixed(0) + "&#8457";
 
     
     var number=1;

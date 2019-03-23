@@ -1,22 +1,22 @@
 @IMPORT url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
 
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 1024px) {
     
     
     * { margin: 0; box-sizing: border-box; } 
     #content {
         max-width: 100%;
-        margin: 0 auto;
-        border-radius: 5px;
+        /*margin: 0 auto;
+        border-radius: 5px;*/
     }
     #heading {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        margin: 1px auto;
+        /*margin: 1px auto;
         background-color: #96e5ff;
-        padding: 1em 1em 1em 1em;
+        padding: 1em 1em 1em 1em;*/
     }
     .top {
         display: flex;
@@ -79,12 +79,12 @@
         position: relative;
         width: 96%
     }
-    .heroph {
+    /*.heroph {
         margin: 10px auto;
         background-color: #96e5ff;
         width: 98%;
         
-    }
+    }*/
     .weatheroverlay {
         position: absolute;
         top: 50px;
@@ -96,6 +96,7 @@
         font-size: 2em;
         font-family: 'Merriweather+Sans', Helvetica;
     }
+
     h3 {
         font-family: 'Merriweather+Sans', Helvetica;
         font-size: 3em;
@@ -129,26 +130,53 @@
     h6 {
         font-family: 'Merriweather+Sans', Helvetica;
         font-size: 3em;
-    }    
-    .weather-heading {
-        font-size: 3em;
-        
-    }
+    } 
+    #places {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }     
     .sec3 {        
         display: grid;        
         grid-template-columns: auto auto;
         justify-content: center;
-        
+        background-color: #96e5ff;
     }
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 20px;
         row-gap: 1.5em;
-        padding: 1em 0 1em 0;    
+        padding-left: 6em;   
     }
-    #places {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }   
+    .img-1:hover {
+        box-shadow: 0 0 50px #3b5377;
+    }
+    .img-2:hover {
+        box-shadow: 0 0 50px #3b5377;
+    }
+    .img-3:hover {
+        box-shadow: 0 0 50px #3b5377;
+    }
+    .img-4:hover {
+        box-shadow: 0 0 50px #3b5377;
+    }
+    .img-5:hover {
+        box-shadow: 0 0 50px #3b5377;
+    }
+    .img-6:hover {
+        box-shadow: 0 0 50px #3b5377;
+    }
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+        width: 80%;
+    }
+   
+    #bottom {
+        background-color: #3b5377;
+        text-align: center;
+        font-family: 'Merriweather+Sans', Helvetica;
+    }
+    #bottom p {
+        color:#fff;
+    }
+
     }

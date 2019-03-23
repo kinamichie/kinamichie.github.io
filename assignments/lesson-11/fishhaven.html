@@ -16,7 +16,8 @@
     <body>
         <div id="content">
             <header id="heading">               
-                    <img id="logo" src="images/weather-logo.jpg" alt="A picture of the weather site logo">
+                <div class="logo-img"><img id="logo" src="images/weather-logo.jpg" alt="A picture of the weather site logo">
+                </div>
                 <div class="top">   
                     <h1>Our Weather Forecast</h1> 
                     <div class="motto">
@@ -55,31 +56,30 @@
                             </section>                           
                     </div>
                                 
-               <section class="forecast">
-                   <h5>5 Day Forecast</h5>
-                   <div class="fiveday">
-                       <span id= "day1"></span> 
-                       <span id= "day2"></span> 
-                       <span id= "day3"></span> 
-                       <span id= "day4"> </span>
-                       <span id= "day5"></span>
-                   </div>
-                   <div id="weather-pic">
-                       <div id="cc-img1"></div>
-                       <div id="cc-img2"></div>
-                       <div id="cc-img3"></div>
-                       <div id="cc-img4"></div>
-                       <div id="cc-img5"></div>
-                        
-                    </div>
-                    <div id="high-temperatures">
-                        <div id= "hight1"></div>  
-                        <div id= "hight2"></div> 
-                        <div id= "hight3"></div>
-                        <div id= "hight4"></div>
-                        <div id= "hight5"></div>
-                    </div>
-               </section>
+                    <table class="forecast">
+                        <th colspan="5">5 Day Forecast</th>
+                            <tr>
+                                <td><span id= "day1"></span></td>
+                                <td><span id= "day2"></span></td>
+                                <td><span id= "day3"></span></td>
+                                <td><span id= "day4"></span></td>
+                                <td><span id= "day5"></span></td>               
+                            </tr>
+                            <tr>
+                                <td><img id="cc-img1" src="" alt=""></td>
+                                <td><img id="cc-img2" src="" alt=""></td>
+                                <td><img id="cc-img3" src="" alt=""></td>
+                                <td><img id="cc-img4" src="" alt=""></td>
+                                <td><img id="cc-img5" src="" alt=""></td>
+                            </tr>
+                            <tr>
+                                <td><span id= "hight1"></span></td>
+                                <td><span id= "hight2"></span></td>
+                                <td><span id= "hight3"></span></td>
+                                <td><span id= "hight4"></span></td>
+                                <td><span id= "hight5"></span></td>
+                            </tr>                 
+                    </table>
                 <section class="pevent">
                     <h3>Special Events</h3>
                     <div id="events"></div>
@@ -124,17 +124,15 @@
                        
                 </section>
             </main>
-            <footer>
-                <div class="bottom">&copy;2019 Our Weather Forecast | Kina Michie | <span id="output"></span>
-                    
-                    <script src="scripts/currentdate.js"></script>
-                </div>  
-            </footer>
+            <footer id="bottom">                
+                <p>&copy;2019 Our Weather Forecast | Kina Michie</p>
+                <p><span id="output"></span></p>                                 
+            </footer>                   
+               
           </div>
-            <script src="scripts/weather.js"></script>
-            <script src="scripts/windchill.js"></script>
+            <script src="scripts/fish-weather.js"></script>
             <script src="scripts/fish-events.js"></script>
-            <script src="scripts/currweather.js"></script>
+            <script src="scripts/currentdate.js"></script>            
        
         
               
