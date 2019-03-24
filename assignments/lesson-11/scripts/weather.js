@@ -33,7 +33,7 @@ forecastRequest.onload = function() {
         document.getElementById('day' + number).innerHTML= weekDay;          
 
         //weather icon
-        let icon = "http://openweathermap.org/img/w/" + forecastData.list[i].weather[0].icon + ".png";
+        let icon = "https://openweathermap.org/img/w/" + forecastData.list[i].weather[0].icon + ".png";
         let des = forecastData.list[i].weather[0].description;      
         
         document.getElementById('cc-img' + number).setAttribute('src', icon);
