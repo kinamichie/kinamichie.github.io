@@ -153,9 +153,9 @@
         background-color: #3b5377;
         color: #fff;
     }
-    .forecast {
+    /*.forecast {
         display: none;   
-    }
+    }*/
     #high-temperatures {
         display: flex;
         align-content: center;
