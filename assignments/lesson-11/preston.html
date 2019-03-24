@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="Assignment lesson-4 Kina Michie CIT 230">
+        <meta name="description" content="Current weather conditions, a five-day weather forecast, and local events and news articles for Preston, Idaho">
+        <meta name="keywords" content="weather, southern idaho weather, preston idaho weather, preston weather forecast, preston events, preston weather news">
         <link rel="stylesheet"  href="css/normalize.css">
         <link rel="stylesheet"  href="css/small.css">
         <link rel="stylesheet"  href="css/medium.css">
@@ -11,7 +12,7 @@
         
         <script src="scripts/hamburger.js"></script>
         
-        <title>Preston Town</title>
+        <title>Current weather and five-day forecast for Preston, Idaho</title>
     </head>
     <body>
         <div id="content">
@@ -24,7 +25,7 @@
                     </div>
                 </div>
             </header>         
-            
+        </div>    
                 <nav class="clearfix">
                     <div class="dropdown"></div>
                         <button onclick="toggleMenu()">&#9776;Menu</button>
@@ -45,7 +46,7 @@
                 
                  <h3>Preston Idaho</h3>
                     <div class="firstpicture">
-                        <img class="heroph" src="images/preston-6-image.jpg" alt="A picture of a sunny day" sizes="90vw" 
+                        <img class="heroph" src="images/preston-6-image.jpg" alt="A picture of a sunny day" sizes="98vw" 
                             srcset="images/preston-6-image-small.jpg 720w,
                                 images/preston-6-image-large.jpg 1100w" >                                                 
                             <section class="weatheroverlay">
@@ -59,7 +60,9 @@
                     </div>
                                 
                     <table class="forecast">
-                            <th colspan="5">5 Day Forecast</th>
+                                <tr>
+                                    <th colspan="5">5 Day Forecast</th>
+                                </tr>
                                 <tr>
                                     <td><span id= "day1"></span></td>
                                     <td><span id= "day2"></span></td>
@@ -124,7 +127,7 @@
                     </div>
                     <div class="mapouter">
                     <div class="gmap_canvas">
-                    <iframe width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=30%20N%201st%20E%2C%20Preston%2C%20ID%2083263&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=30%20N%201st%20E%2C%20Preston%2C%20ID%2083263&t=&z=13&ie=UTF8&iwloc=&output=embed" >
                     </iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
                     </div>
                     </div>                    

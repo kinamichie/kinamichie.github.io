@@ -101,7 +101,8 @@
         font-family: 'Merriweather+Sans', Helvetica;
     }
     #winter {
-        max-width: 80%;
+        width: 80%;
+        padding-left: 5em;
     }
     /*gallery*/
     .container {
@@ -151,15 +152,9 @@
     .pevent {
         background-color: #3b5377;
         color: #fff;
-        padding-left: 3em;
     }
     .forecast {
-        position: relative;
-        margin: 10px auto;
-        width: 50%;
-        color: #fff;
-        background-color: #3b5377;
-        font-size: 1em;        
+        display: none;   
     }
     #high-temperatures {
         display: flex;
@@ -168,8 +163,7 @@
         margin: 1em auto;
     }    
     .info {
-        padding-top: 3em;
-        padding-left: 6em;
+        padding-top: 3em;         
     } 
     h6 {
         font-family: 'Merriweather+Sans', Helvetica;
@@ -185,10 +179,10 @@
     .mapouter{
         position:relative;
         text-align:right;
-        height:250px auto;
-        width:400px auto;
-        padding-top: 2em;
-        padding-left: 2em;
+        height:250px;
+        width:98%;
+        padding-top: 5em;
+        padding-right: 6em;
     }
     .gmap_canvas {
         overflow:hidden;
