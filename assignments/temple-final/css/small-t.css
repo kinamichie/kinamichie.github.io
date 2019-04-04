@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
+@media only screen and (max-width: 718px) {  
+    
+    * { margin: 0; box-sizing: border-box; } 
+
+    body {
+        margin:0;
+        font-family:"Merra+Inimai", Helvetica;
+    }
+        
+      .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+        float: left;
+        display: block;
+      }       
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+      }
+      .topnav.responsive .dropdown {float: none;}
+      .topnav.responsive .dropdown-content {position: relative;}
+      .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    } /*Header*/
+    #heading {
+      background-color: #cddddc;
+      width: 100%;
+      padding-top: .5em; 
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin: auto;      
+    }
+    .top {
+      font-size: 1rem;
+      padding-top: 1.5rem;
+    }
+    /*navigation*/
+      .topnav {
+        overflow: hidden;
+        background-color: #f4eade;
+      }
+      
+    .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        color: #000000;
+      }      
+      .current {
+        background-color: #9aa8b0;
+      }
+      .icon {
+        color: #000000;
+      }
+      .topnav .icon {
+        display: none;
+      }      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }      
+      .dropdown .dropbtn {
+        font-size: 17px;    
+        border: none;
+        outline: none;
+        color: #000000;
+        padding: 14px 16px;
+        background-color: #f4eade;
+        margin: 0;
+      }      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f4eade;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      .topnav a:hover, .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+      }      
+      .dropdown-content a:hover {
+        background-color: #9aa8b0;
+        color: #fff;
+      }      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }  
+      /*footer*/
+      #bottom {
+        background-color: #9aa8b0;
+        color: #fff;
+        text-align: center;
+      }
+      /*home page (index) body*/
+      .background {
+        background-color: #cddddc;
+      }
+      .top-pictures {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .anchorage-t, .portland-t, .medford-t, .seattle-t {
+        width: 90%;
+        padding-left: 1rem;
+      }
+      .t-action {
+        display: flex;
+        justify-content: center;
+        text-align: center; 
+        background-color:#f4eade;
+        width: 70%;
+        margin: 10px auto;
+        padding: 2rem;
+      }
+      .t-action form p {
+        font-size: 2rem;
+      }
+      .t-action form button {
+        background-color: #9aa8b0;
+        color: white;
+      }
+      .summary {        
+        width: 70%;
+        border: solid #9aa8b0;
+        background-color: #edf0f2;
+        text-align: center;
+        margin: 10px auto;
+      }    
+      .info {
+        padding: 2rem 2rem 2rem 2rem;
+      }
+      .bottom-pictures {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #cddddc;
+      }
+      .lobby, .hotel, .pool, .reception-2 {
+        width: 98%;
+        padding: 1rem 0 1rem 5rem;
+      } 
+      .container-2 {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        background-color: #f4eade;
+      }
+      div iframe {
+        padding-top: .5rem;
+      }

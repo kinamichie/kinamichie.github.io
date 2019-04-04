@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
+@media only screen and (min-width: 1024px) {    
+    
+    * { margin: 0; box-sizing: border-box; } 
+
+    body {
+        margin:0;
+        font-family: "Merra+Inimai", Helvetica;
+    }
+/*Index*/
+    .top-pictures {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      padding-left: 2rem;
+
+    }
+    .portland-t, .medford-t {
+      width: 75%;
+      padding: 1rem 0 1rem 9rem;
+    }
+    .anchorage-t, .seattle-t {
+      width: 98%;  
+      padding-top: 2rem;   
+    }    
+    .seattle-t {
+      padding-right: 2rem;
+    }
+    .first {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .fourth {
+      grid-column-start: 4;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .container-2 {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+    }
+    .bottom-pictures {
+      display: grid;
+      grid-template-columns: auto auto auto auto; 
+      width: 98%;
+    }
+      
+}
