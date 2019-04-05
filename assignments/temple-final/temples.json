@@ -5,7 +5,7 @@
         "address": [
             "13161 Brayton Dr.",
             "Anchorage, Alaska 99516"
-        ],     
+        ],    
         "telephone": "(907)348-7890",
         "services": "none",
         "email":"Log into your LDS acount to access this",
@@ -15,9 +15,9 @@
             "9 January 1999 - Dedicated",
             "8 February 2004 - Rededicated"
         ],
-        "oridinance-schedule": "Tuesday - Saturday",
-        "session-schedule": "Tuesday - Saturday",
-        "temple-closure": [
+        "oridinance": "Tuesday - Saturday",
+        "session": "Tuesday - Saturday",
+        "closure": [
             "Monday, 25 March 2019 - Monday, 8 April 2019",
             "Wednesday, 3 July 2019 - Thursday, 4 July 2019",
             "Monday, 23 September 2019 - Monday, 7 October 2019",
@@ -42,9 +42,9 @@
             "20 May 1999 - Groundbreaking",
             "16 April 2000 - Dedicated"
         ],
-        "oridinance-schedule": "Tuesday - Saturday",
-        "session-schedule": "Tuesday - Saturday",
-        "temple-closure": [
+        "oridinance": "Tuesday - Saturday",
+        "session": "Tuesday - Saturday",
+        "closure": [
             "Saturday, 6 April 2019",
             "Thursday, 4 July 2019",
             "Tuesday, 23 July 2019",
@@ -71,9 +71,9 @@
             "20 September 1986 - Groundbreaking",
             "19 August 1989 - Dedicated"
         ],
-        "oridinance-schedule": "Tuesday - Saturday",
-        "session-schedule": "Tuesday - Saturday",
-        "temple-closure": [
+        "oridinance": "Tuesday - Saturday",
+        "session": "Tuesday - Saturday",
+        "closure": [
             "Saturday, 6 April 2019",
             "Thursday, 4 July 2019",
             "Monday, 29 July 2019 - Monday, 12 August 2019",
@@ -99,9 +99,9 @@
             "27 May 1978 - Groundbreaking",
             "17 November 1980 - Dedicated"
         ],
-        "oridinance-schedule": "Tuesday - Saturday",
-        "session-schedule": "Tuesday - Saturday",
-        "temple-closure": [
+        "oridinance": "Tuesday - Saturday",
+        "session": "Tuesday - Saturday",
+        "closure": [
             "Saturday, 6 April 2019",
             "Thursday, 4 July 2019",
             "Sunday, 18 August 2019 - Monday, 2 September 2019",
