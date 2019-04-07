@@ -44,8 +44,68 @@
                     <a href="contact.html">Contact Us</a>                   
                 </div>     
             </nav>
+            <main class="background">
+                    <div class="container-4">
+                            
+                        <form action="thankyou.html">
+                            <ul class="cnames">
+                                <li>
+                                    <label for="fname">First Name</label>                              
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                                </li>
+                                <li>
+                                    <label for="mname">Middle Name</label>                                
+                                    <input type="text" id="mname" name="middlename" placeholder="Middle name..">
+                                </li>
+                                <li>
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                                </li>
+                                <li>
+                                    <label for="yemail">Email</label>
+                                    <input type="text" id="yemail" name="email" placeholder="Your Email" required>
+                                </li>
+                                <li>
+                                    <label for="rdate">Check-in</label>
+                                    <input type="date" id="rdate" name="rday" required>
+                                
+                                    <label for="edate">Check-out</label>
+                                    <input type="date" id="edate" name="eday" required>                                 
+                                </li> 
+                                <li>                                                                     
+                                    <select id="which-temple" name="which-temple" required>
+                                        <option value="Anchorage">Anchorage, Alaska</option>
+                                        <option value="Medford">Medford, Oregon</option>
+                                        <option value="Portland">Portland, Oregon</option>
+                                        <option value="Seattle">Seattle, Washington</option>
+                                    </select>
+                                </li> 
+                                <li>
+                                    <label for="nrooms">Number of Rooms</label>
+                                    <input type="text" id="nrooms" name="rooms" placeholder="Number of rooms" required>
+                                
+                                
+                                    <label for="trooms" class="typeroom">Type of Room</label>
+                                    <select id="trooms" name="trooms" required>
+                                        <option value="fulls">Full-Sized Bed</option>
+                                        <option value="queen">Queen-Sized Bed</option>
+                                        <option value="dqueen">Two Queen-Sized Beds</option>
+                                        <option value="king">King-Sized Bed</option>
+                                        <option value="missionary">Missionary Suite</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <textarea id="rcomment" name="subject" placeholder="Special Accommodations/Comments.." style="height:200px"></textarea>
+                                </li>  
+                                <li> 
+                                <input type="submit" value="Submit">
+                                </li> 
+                            </ul>
+                        </form>                     
+                    </div>
+            </main>
             <footer id="bottom">                
-                <p>&copy;2019 Temple Inn & Suites | Kina Michie</p>
+                <p>&copy;2019 Temple Inn & Suites | Kina Michie | <a href="resource.html">Resource Page</a></p>
                 <p><span id="output"></span></p>                                 
             </footer>
             <script src="t-scripts/currentdate.js"></script>  
