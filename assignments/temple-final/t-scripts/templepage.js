@@ -28,7 +28,8 @@ function northTemple(jsonObj) {
         var myPara7 = document.createElement('p');
         var myPara8 = document.createElement('p');
         var myList3 = document.createElement('ul');
-        
+        var myPara9 = document.createElement('p');
+
         myH2.textContent = place[i].name;
         myPara1.textContent='Address:';
         var placeAddress = place[i].address;
@@ -58,6 +59,7 @@ function northTemple(jsonObj) {
             list3Item.textContent = placeClosure[m];
             myList3.appendChild(list3Item);
         }
+        myPara9.textContent = place[i].summary;
 
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
