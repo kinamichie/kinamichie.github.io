@@ -278,34 +278,46 @@
      
      
       /*reception*/
-      .slidePics {
-        display: none;
-        width: 90%;
-        padding-left: 3rem;
-      }
-      .slide-show {
-        max-width: 90%;
-        padding: 2rem;       
+      .rehall {
+        padding: 2rem;
+        font-size: 2rem;
+        margin: 0;
       }
       .section-8 {
         display: grid;
         grid-template-columns: auto;
-        padding: .5rem;
-        border: .5rem solid #555;
-        margin: 2px;
-      }  
+        border: 12px solid #9aa8b0;
+      }
       .reception-options {
-        padding-top: 4rem;
+        width: 90%;
+        padding: 2em;
+      }
+      .reception-options ul {
+        padding: 2rem;
       }
       .reception-options ul li {
         font-size: 20px;
-      }  
-      .rehall {
-        font-size: 40px;
-        padding: 1rem;
-        margin: 0;
       }
-      
+      .recPictsb {
+        padding-top: 2rem;
+      }
+      .recPict1, .recPict2, .recPict3, .recPict4, .recPict5, .recPict6 {
+        width: 90%;
+        padding-left: 1.5rem;
+      }
+      /*missionaries page*/
+      .misspage {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+      }
+      .missionaryc, .sitting, .hotelRoom2, .hotelRoom3, .kitchenette, .bath {
+        width: 90%;
+        padding: 2rem;
+      }
+      dl {
+        padding: 2rem;
+      }
 
       /*contact us*/
 

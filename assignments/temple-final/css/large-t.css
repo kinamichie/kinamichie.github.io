@@ -58,7 +58,16 @@
     .section-8 {
       display: grid;
       grid-template-columns: auto auto;
-     
-    }  
+    }   
+    .recPict1, .recPict2, .recPict3, .recPict4, .recPict5, .recPict6 {
+      padding: 2rem;
+    }
+    /*missionary*/
+    .misspage {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+    }
+
     
 }

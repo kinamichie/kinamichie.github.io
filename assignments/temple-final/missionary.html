@@ -46,42 +46,57 @@
                 </div>     
             </nav>
             <main class="background">
-                    <div class="misspicts">
-                        <div class="missionaryc">
-                            <img scr="images/couple-missionaries.jpg" alt="A picture of a missionary couple">
-                        </div>
-                        <div class="hotelRoom2">
-                            <img scr="images/hotel-room-2.jpg" alt="A picture of a hotel room">
-                        </div>
-                        <div class="hotelRoom3">
-                            <img scr="images/hotel-room-3.jpg" alt="A picture of a hotel room">
-                        </div>
-                        <div class="kitchenette">
-                            <img scr="images/kitchen.jpg" alt="A picture of a hotel kittchenette">
-                        </div>
+                <div class="misspage"> 
+                    <div class="missinfo">
+                          
+                        <h2>Missionary Suites</h2>
+                        <dl>
+                            <dt>Large Suite</dt>
+                                <dd>- Large bedroom with a king-sized bed</dd>
+                                <dd>- Large sitting area</dd>
+                                <dd>- Luxurious bathroom with jetted tub, double sinks, and a seperate shower</dd>
+                                <dd>- Large kitchenette for all your cooking needs</dd>
+                                <dd>- Access to all the amenities the hotel has to offer</dd>
+                            <dt>Small Suite</dt>
+                                <dd>- Medium sized bedroom with a queen-sized bed</dd>
+                                <dd>- Sitting area</dd>
+                                <dd>- Bathroom with shower/tub combo</dd>
+                                <dd>- Small kitechentte for all your cooking needs</dd>
+                                <dd>- Access to all the amenities the hotel has to offer</dd>
+                        </dl>
+                        <img class="sitting" src="images/livingarea.jpg" alt="A picture of a living area and kitchenette">
+                        <img class="bath" src="images/bathroom.jpg" alt="A picture of a hotel bathroom">
+                    </div>
+                    <div class="misspicts">                       
+                                                
+                            <img class="hotelRoom2" src="images/hotel-room-2.jpg" alt="A picture of a hotel room">
+                            <img class="hotelRoom3" src="images/hotel-room-3.jpg" alt="A picture of a hotel room">
+                            <img class="kitchenette" src="images/kitchen.jpg" alt="A picture of a hotel kitchenette">                       
+                    </div>
+
+                   
+                </div>
+
+
+
+
+                <div class="container-3">
+                        <form action="thankyou.html">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
                         
-                    </div>
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
-
-
-
-                    <div class="container-3">
-                            <form action="thankyou.html">
-                              <label for="fname">First Name</label>
-                              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                          
-                              <label for="lname">Last Name</label>
-                              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-
-                              <label for="yemail">Email</label>
-                              <input type="text" id="yemail" name="email" placeholder="Your Email" required>
-                                                    
-                              <label for="subject">Subject</label>
-                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                          
-                              <input type="submit" value="Submit">
-                            </form>
-                    </div>
+                            <label for="yemail">Email</label>
+                            <input type="text" id="yemail" name="email" placeholder="Your Email" required>
+                                                
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        
+                            <input type="submit" value="Submit">
+                        </form>
+                </div>
 
             </main>
             <footer id="bottom">                
