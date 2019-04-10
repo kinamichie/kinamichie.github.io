@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
 @media only screen and (max-width: 718px) {  
     
-    * {box-sizing: border-box; } 
-
-    body {
-        font-family:"Merra+Inimai", Helvetica;
-    }
+    * {box-sizing: border-box; }     
         
       .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;
@@ -32,6 +28,9 @@
         width: 100%;
         text-align: center;
       }
+    }
+    body {
+        font-family:"Merra+Inimai", Helvetica;
     } /*Header*/
     #heading {
       background-color: #cddddc;
@@ -53,7 +52,7 @@
         background-color: #f4eade;
       }
       
-    .topnav a {
+      .topnav a {
         float: left;
         display: block;
         text-align: center;
@@ -126,7 +125,7 @@
         display: grid;
         grid-template-columns: auto auto;
       }
-      .anchorage-t, .portland-t, .medford-t, .seattle-t {
+      .m-couple, .w-couple, .mom, .boy {
         width: 90%;
         padding-left: 1rem;
       }
@@ -146,13 +145,23 @@
         background-color: #9aa8b0;
         color: white;
       }
+      #aktemple {
+        width: 90%;
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+      }  
       .summary {        
         width: 70%;
         border: solid #9aa8b0;
         background-color: #edf0f2;
-        text-align: center;
         margin: 10px auto;
-      }    
+      } 
+      .summary h2 {
+        text-align: center;
+      }   
+      .summary p {
+        text-align: left;
+      }
       .info {
         padding: 2rem 2rem 2rem 2rem;
       }
@@ -161,9 +170,9 @@
         grid-template-columns: auto auto;
         background-color: #cddddc;
       }
-      .lobby, .hotel, .pool, .reception-2 {
+      .anchorage-t, .portland-t, .medford-t, .seattle-t {
         width: 98%;
-        padding: 1rem 0 1rem 5rem;
+        padding: 1rem;
       } 
       .container-2 {
         display: grid;
@@ -176,6 +185,21 @@
       }
 
       /*Temple page*/
+      .ttable {
+        display: flex;
+        justify-content: center;
+        padding-top: 1.5rem;
+      }
+      .tweather {
+        width: 75%;
+        text-align: center;
+        border: 2px solid;
+        box-shadow: 0 0 50px #9aa8b0;
+        align-items: center;
+      }
+      table tr th {
+        font-size: 2rem;
+      }
       #places article {
         padding: 10px;
         border: 2px solid;
@@ -229,13 +253,66 @@
         background-color: #9aa8b0;
         color: white;
       }
+      /*Services Page*/
+      .amenPic {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .wroom, .pool, .kitchen, .comp {
+        width: 30%;
+        padding: 1rem;
+      }
+      .tservices {
+        display: grid;
+        grid-template-columns: auto;
+        width: 98%; 
+        padding: 1rem;         
+      }
+      .amenities, .specialized {
+        border: 2px solid #9aa8b0; 
+        padding: 1.5rem;      
+      }
+      .amenities ul li, .specialized ul li {
+        font-size: 20px;
+      }
+     
+     
+      /*reception*/
+      .slidePics {
+        display: none;
+        width: 90%;
+        padding-left: 3rem;
+      }
+      .slide-show {
+        max-width: 90%;
+        padding: 2rem;       
+      }
+      .section-8 {
+        display: grid;
+        grid-template-columns: auto;
+        padding: .5rem;
+        border: .5rem solid #555;
+        margin: 2px;
+      }  
+      .reception-options {
+        padding-top: 4rem;
+      }
+      .reception-options ul li {
+        font-size: 20px;
+      }  
+      .rehall {
+        font-size: 40px;
+        padding: 1rem;
+        margin: 0;
+      }
+      
 
       /*contact us*/
 
       input[type=text], select, textarea {
         width: 100%;
         padding: 12px;
-        border: 1px solid #ccc;
+        border: 1px solid #edf0f2;
         border-radius: 4px;
         box-sizing: border-box;
         margin-top: 6px;
@@ -259,10 +336,10 @@
       .container-3 {
         border-radius: 5px;
         background-color: #cddddc;
-        padding: 20px;
+        padding: 3rem;        
+        width: 90%;
       }
-
-
+   
       /*thankyou*/
       .thanks {
         text-align: center;

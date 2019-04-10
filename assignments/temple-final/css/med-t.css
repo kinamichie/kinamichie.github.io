@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
 @media only screen and (min-width: 719px) {    
     
-  
+    
     /*Header*/
     #heading {      
         padding-top: .5em; 
@@ -10,6 +10,14 @@
         font-size: 1.5rem;
         padding-top: 2rem;
         padding-left: 1rem;
+    }
+    #aktemple {
+      float: right;
+      width: 30%;
+      padding: 1em;
+    }
+    .summary {
+      font-size: 1.5em;
     }
     .container-2 {
       display: grid;
@@ -21,4 +29,11 @@
       grid-template-columns: auto auto auto auto; 
       width: 98%;
     } 
+    /*services*/
+    .section-8 {
+      display: grid;
+      grid-template-columns: auto auto;
+     
+    }  
+    
     }

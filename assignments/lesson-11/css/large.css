@@ -120,7 +120,7 @@
     #winter {
         float: right;
         width: 25%;
-        padding: 2em 2em 2em 2em;
+        padding: 0 2em 2em 2em;
     }
     h6 {
         font-family: 'Merriweather+Sans', Helvetica;

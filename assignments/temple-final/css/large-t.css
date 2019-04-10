@@ -3,26 +3,21 @@
     
     
 
-    body {
-        margin:0;
-        font-family: "Merra+Inimai", Helvetica;
-    }
+    
 /*Index*/
     .top-pictures {
       display: grid;
       grid-template-columns: auto auto auto auto auto;
-      padding-left: 2rem;
-
     }
-    .portland-t, .medford-t {
-      width: 75%;
-      padding: 1rem 0 1rem 9rem;
+    .w-couple, .mom {
+      width: 90%;
+      padding: 2rem;
     }
-    .anchorage-t, .seattle-t {
-      width: 98%;  
-      padding-top: 2rem;   
+    .m-couple, .boy {
+      width: 95%;  
+      padding-top: .5rem;   
     }    
-    .seattle-t {
+    .reception-2 {
       padding-right: 2rem;
     }
     .first {
@@ -51,6 +46,19 @@
      #places {
       display: grid;
       grid-template-columns: auto auto;
-  }     
-      
+      padding-right: 1rem;
+    }  
+    /*services*/
+    
+    .tservices {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+    /*reception*/
+    .section-8 {
+      display: grid;
+      grid-template-columns: auto auto;
+     
+    }  
+    
 }
