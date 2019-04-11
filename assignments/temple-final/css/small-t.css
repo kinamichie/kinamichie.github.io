@@ -258,9 +258,11 @@
         display: grid;
         grid-template-columns: auto auto;
       }
-      .wroom, .pool, .kitchen, .comp {
-        width: 30%;
-        padding: 1rem;
+      .wroom, .pool {
+        width: 98%;
+      }
+      .kitchen, .comp {
+        width: 70%;
       }
       .tservices {
         display: grid;
@@ -273,10 +275,8 @@
         padding: 1.5rem;      
       }
       .amenities ul li, .specialized ul li {
-        font-size: 20px;
-      }
-     
-     
+        font-size: 1.2rem;
+      }    
       /*reception*/
       .rehall {
         padding: 2rem;

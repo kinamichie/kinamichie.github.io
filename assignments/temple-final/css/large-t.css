@@ -54,6 +54,12 @@
       display: grid;
       grid-template-columns: auto auto auto auto;
     }
+    .wroom, .pool {
+      padding: .5rem;
+    }
+    .kitchen, .comp {
+      padding-left: 8rem;
+    }
     /*reception*/
     .section-8 {
       display: grid;
