@@ -112,11 +112,14 @@
       }  
       /*footer*/
       #bottom {
-        background-color: #9aa8b0;
+        background-color: #555;
         color: #fff;
         text-align: center;
         padding: .2rem;
       }
+     footer p a {
+       color: #fff;
+     }
       /*home page (index) body*/
       .background {
         background-color: #cddddc;
