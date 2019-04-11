@@ -142,8 +142,9 @@
         font-size: 2rem;
       }
       .t-action form button {
-        background-color: #9aa8b0;
+        background-color: #555;
         color: white;
+        font-size: 2rem;
       }
       #aktemple {
         width: 90%;
