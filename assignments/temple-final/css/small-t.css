@@ -251,8 +251,11 @@
         padding-left: .5em;
       }          
       #rdate, #edate {
-        background-color: #9aa8b0;
+        background-color: #555;
         color: white;
+      }
+      .sbut {
+        color: #fff;
       }
       /*Services Page*/
       .amenPic {
