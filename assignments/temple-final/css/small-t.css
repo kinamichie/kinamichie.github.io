@@ -254,9 +254,7 @@
         background-color: #555;
         color: white;
       }
-      .sbut {
-        color: #fff;
-      }
+    
       /*Services Page*/
       .amenPic {
         display: grid;
@@ -337,7 +335,8 @@
       }
       
       input[type=submit] {
-        background-color: #9aa8b0;
+        background-color: #555;
+        color: #fff;
         padding: 12px 20px;
         border: none;
         border-radius: 10px;
@@ -345,8 +344,8 @@
       }
       
       input[type=submit]:hover {
-        background-color: #555;
-        color: #fff;
+        background-color: #edf0f2;
+        color: #000000;
       }
       
       .container-3 {
