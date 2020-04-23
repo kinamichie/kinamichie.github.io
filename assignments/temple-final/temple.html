@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This page gives the information about the four different temples which the hotel provides services for">
+        <meta name="keywords" content="hotel, inn, lds temples, temples, rooms, suites, accomidations, shuttle service, location, weather, information, temple history">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet"  href="css/small-t.css">
+        <link rel="stylesheet"  href="css/med-t.css">
+        <link rel="stylesheet"  href="css/large-t.css">
+        
+        <script src="t-scripts/hamburger.js"></script>
+        
+        <title>LDS Temple Inn and Suites temple information page.</title>
+    </head>
+    <body>
+        <div id="content">
+            <header id="heading">               
+                    <img id="logo" src="images/temple-logo.png" alt="A picture of the Temple Inn & Suites logo">
+                <div class="top">   
+                    <h1>Temple Inn & Suites</h1> 
+                    <div class="motto">
+                        <h2>A haven of comfort</h2>
+                    </div>
+                </div>
+            </header>         
+            
+            <nav class="clearfix">
+                <div class="topnav" id="myTopnav">
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="toggleMenu()">&#9776;Menu</a>
+                    <a href="t-index.html">Home</a>
+                    <a class="current" href="temple.html">Temple</a>
+                    <a href="reservation.html">Reservations</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Services 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="services.html">Services</a>
+                        <a href="reception.html">Reception</a>
+                        <a href="missionary.html">Missionary</a>        
+                    </div>                       
+                    </div> 
+                    <a href="contact.html">Contact Us</a>                   
+                </div>     
+            </nav>
+            <main class="background">            
+                    <div class="ttable">  
+                            <table class="tweather">
+                                        <tr>
+                                            <th colspan="4">Current Weather</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Anchorage, Alaska</td>
+                                            <td>Medford, Oregon</td>
+                                            <td>Portland, Oregon</td>
+                                            <td>Seattle, Washington</td>              
+                                        </tr>
+                                        <tr>
+                                            <td><img id="cc-img1" src="" alt=""></td>
+                                            <td><img id="cc-img2" src="" alt=""></td>
+                                            <td><img id="cc-img3" src="" alt=""></td>
+                                            <td><img id="cc-img4" src="" alt=""></td>                                            
+                                        </tr>
+                                        <tr>
+                                            <td><span id= "temp0"></span></td>
+                                            <td><span id= "temp1"></span></td>
+                                            <td><span id= "temp2"></span></td>
+                                            <td><span id= "temp3"></span></td>
+                                        </tr>                 
+                                </table>
+                            </div>              
+
+                
+                <section id="places">
+                   
+                </section>
+            </main>
+            <footer id="bottom">                
+                <p>&copy;2019 Temple Inn & Suites | Kina Michie | <a href="resource.html">Resource Page | Weather information by Open Weather Map</a></p>
+                <p><span id="output"></span></p>                                 
+            </footer>
+            <script src="t-scripts/templepage.js"></script>
+            <script src="t-scripts/currentdate.js"></script> 
+            <script src="t-scripts/weather0.js"></script> 
+            <script src="t-scripts/weather1.js"></script> 
+            <script src="t-scripts/weather2.js"></script> 
+            <script src="t-scripts/weather3.js"></script> 
+            </div>
+    </body>
+</html> 

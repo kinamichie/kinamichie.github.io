@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The reservations page will allow customers to make a reservation in the hotel Temple Inn and Suites ">
+        <meta name="keywords" content="reservation, reservations, hotel reservation, inn reservation, suite reservations, missionary suites reservations, reserve accomodations">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet"  href="css/small-t.css">
+        <link rel="stylesheet"  href="css/med-t.css">
+        <link rel="stylesheet"  href="css/large-t.css">
+        
+        <script src="t-scripts/hamburger.js"></script>
+        
+        <title>LDS Temple Inn and Suites Reservation page. Stay in comfort</title>
+    </head>
+    <body>
+        <div id="content">
+            <header id="heading">               
+                    <img id="logo" src="images/temple-logo.png" alt="A picture of the Temple Inn & Suites logo">
+                <div class="top">   
+                    <h1>Temple Inn & Suites</h1> 
+                    <div class="motto">
+                        <h2>A haven of comfort</h2>
+                    </div>
+                </div>
+            </header>         
+            
+            <nav class="clearfix">
+                <div class="topnav" id="myTopnav">
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="toggleMenu()">&#9776;Menu</a>
+                    <a href="t-index.html">Home</a>
+                    <a href="temple.html">Temple</a>
+                    <a class="current" href="reservation.html">Reservations</a>
+                    <div class="dropdown">
+                    <button class="dropbtn">Services 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="services.html">Services</a>
+                        <a href="reception.html">Reception</a>
+                        <a href="missionary.html">Missionary</a>        
+                    </div>
+                    </div> 
+                    <a href="contact.html">Contact Us</a>                   
+                </div>     
+            </nav>
+            <main class="background">
+                    <div class="container-4">
+                            
+                        <form action="thankyou.html">
+                            <ul class="cnames">
+                                <li>
+                                    <label for="fname">First Name</label>                              
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                                </li>
+                                <li>
+                                    <label for="mname">Middle Name</label>                                
+                                    <input type="text" id="mname" name="middlename" placeholder="Middle name..">
+                                </li>
+                                <li>
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                                </li>
+                                <li>
+                                    <label for="yemail">Email</label>
+                                    <input type="text" id="yemail" name="email" placeholder="Your Email" required>
+                                </li>
+                                <li>
+                                    <label for="rdate">Check-in</label>
+                                    <input type="date" id="rdate" name="rday" required>
+                                
+                                    <label for="edate">Check-out</label>
+                                    <input type="date" id="edate" name="eday" required>                                 
+                                </li> 
+                                <li>  
+                                    <label for="which-temple">Temple</label>                                                                   
+                                    <select id="which-temple" name="which-temple" required>
+                                        <option value="">Anchorage, Alaska</option>
+                                        <option value="">Medford, Oregon</option>
+                                        <option value="">Portland, Oregon</option>
+                                        <option value="">Seattle, Washington</option>
+                                    </select>
+                                </li> 
+                                <li>
+                                    <label for="nrooms">Number of Rooms</label>
+                                    <input type="text" id="nrooms" name="rooms" placeholder="Number of rooms" required>
+                                
+                                
+                                    <label for="trooms" class="typeroom">Type of Room</label>
+                                    <select id="trooms" name="trooms" required>
+                                        <option value="">Full-Sized Bed</option>
+                                        <option value="">Queen-Sized Bed</option>
+                                        <option value="">Two Queen-Sized Beds</option>
+                                        <option value="">King-Sized Bed</option>
+                                        <option value="">Missionary Suite</option>
+                                    </select>
+                                </li>
+                                <li>                                    
+                                    <textarea id="rcomment" name="subject" placeholder="Special Accommodations/Comments.." style="height:200px"></textarea>
+                                </li>  
+                                <li> 
+                                <input type="submit" value="Submit">
+                                </li> 
+                            </ul>
+                        </form>                     
+                    </div>
+            </main>
+            <footer id="bottom">                
+                <p>&copy;2019 Temple Inn & Suites | Kina Michie | <a href="resource.html">Resource Page</a></p>
+                <p><span id="output"></span></p>                                 
+            </footer>
+            <script src="t-scripts/currentdate.js"></script>  
+        </div>
+    </body>
+</html> 

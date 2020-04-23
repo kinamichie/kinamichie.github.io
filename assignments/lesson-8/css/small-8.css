@@ -1,0 +1,205 @@
+@media only screen and (max-width: 35rem) {
+@IMPORT url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
+
+* { margin: 0; box-sizing: border-box; } 
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 1px auto;
+    background-color: #96e5ff;
+    padding: 1em 1em 1em 1em;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+h1 {
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 2em;
+    padding-left: 1em;
+  }
+.motto {
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: .5em;
+    text-align: center;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav {
+    background-color: #3b5377;
+    font-family: 'Merriweather+Sans', Helvetica;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: .8rem 2%;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li.current a { 
+    background-color: #96e5ff;
+    color: #3b5377;
+}
+nav ul li a:hover {
+    background-color: #d69c4a;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+
+}
+nav ul.hide {
+    display: none;
+}
+h3{
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 1em;
+    text-align: center;
+}
+.heroph {
+        margin: 10px auto;
+        background-color: #96e5ff;
+        width: 98%;        
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1em auto;
+}
+}
+.img-1:hover {
+    box-shadow: 0 0 50px #3b5377;
+}
+.img-2:hover {
+    box-shadow: 0 0 50px #3b5377;
+}
+.img-3:hover {
+    box-shadow: 0 0 50px #3b5377;
+}
+.img-4:hover {
+    box-shadow: 0 0 50px #3b5377;
+}
+.img-5:hover {
+    box-shadow: 0 0 50px #3b5377;
+}
+.img-6:hover {
+    box-shadow: 0 0 50px #3b5377;
+}
+.weather-heading {
+    display: flex;
+    justify-content: start;
+    font-family: 'Merriweather+Sans', Helvetica;
+    color: #3b5377;
+}
+#stormpic {
+    margin: 0;
+    width: 100%;
+}
+.container2 {
+    border-radius: 5px;
+    background-color: #96e5ff;
+    padding: 20px;
+    margin: 2rem auto;
+    border:2px solid;
+    padding: 2rem;
+    }
+label {
+    padding: 12px 12px 12px 0;
+    font-size: 1.5em;
+    font-family:'Merriweather+Sans', Helvetica;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {    
+    width: 75%;
+    margin-top: 6px;
+}
+input[type=text], input[type=radio], input[type=email], input[type=tel], input[type=number], input[type=date], input[type=list], input[type=range] {
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+#stormt, #stormr {
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=text]:focus {
+    border: 3px solid #3b5377;
+}
+#pick {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #3b5377;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  } 
+input[type=submit] {
+    border: 0;
+    background-color: #3b5377;
+    padding: .25rem;
+    color: #fff;
+    width: 15%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]:hover {
+        background-color: #96eeff;
+}
+.bottom {
+    text-align: center;
+    font-family: 'Merriweather+Sans', Helvetica;
+    background-color: #3b5377;
+    color: #fff
+}
+.thankyou {
+    font-family: 'Merriweather+Sans', Helvetica;
+    margin-left: 1em;
+    font-size: 1.5em;
+    padding: 2em 2em 2em 2em;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+

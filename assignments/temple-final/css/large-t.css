@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
+@media only screen and (min-width: 1024px) {    
+    
+    
+
+    
+/*Index*/
+    .top-pictures {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+    }
+    .w-couple, .mom {
+      width: 90%;
+      padding: 2rem;
+    }
+    .m-couple, .boy {
+      width: 95%;  
+      padding-top: .5rem;   
+    }    
+    .reception-2 {
+      padding-right: 2rem;
+    }
+    .first {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .fourth {
+      grid-column-start: 4;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .container-2 {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+    }
+    .bottom-pictures {
+      display: grid;
+      grid-template-columns: auto auto auto auto; 
+      width: 98%;
+    }
+     /*temple*/
+     #places {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding-right: 1rem;
+    }  
+    /*services*/
+    
+    .tservices {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+    .wroom, .pool {
+      padding: .5rem;
+    }
+    .kitchen, .comp {
+      padding-left: 8rem;
+    }
+    /*reception*/
+    .section-8 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }   
+    .recPict1, .recPict2, .recPict3, .recPict4, .recPict5, .recPict6 {
+      padding: 2rem;
+    }
+    /*missionary*/
+    .misspage {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+    }
+
+    
+}

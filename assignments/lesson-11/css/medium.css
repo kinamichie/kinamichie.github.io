@@ -1,0 +1,159 @@
+@IMPORT url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
+
+@media only screen and (min-width: 719px) {
+    
+    
+    * { margin: 0; box-sizing: border-box; } 
+    #content {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    #heading {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 1px auto;
+        background-color: #96e5ff;
+        padding: 1em 1em 1em 1em;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    h1 {
+        font-family: 'Merriweather+Sans', Helvetica;
+        font-size: 2em;
+        padding-left: 1em;
+      }
+    .motto {
+        font-family: 'Merriweather+Sans', Helvetica;
+        font-size: .75em;
+        text-align: center;
+    }
+    nav button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+    nav {
+        background-color: #3b5377;
+        font-family: 'Merriweather+Sans', Helvetica;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li a {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: .8rem 2%;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    nav ul li.current a { 
+        background-color: #96e5ff;
+        color: #3b5377;
+    }
+    nav ul li a:hover {
+        background-color: #d69c4a;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px 5px;
+    
+    }
+    nav ul.hide {
+        display: none;
+    }
+    h3{
+        font-family: 'Merriweather+Sans', Helvetica;
+        font-size: 2em;
+        text-align: center;
+    }
+    .firstpicture {
+        margin: 10px auto;
+        position: relative;
+        width: 96%
+    }
+    .weatheroverlay {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        background: radial-gradient(#96e5ff,#3b5377);
+        border: 1px #3b5377;
+        padding: .5rem;
+        box-shadow: 0 0 30px;
+        font-size: 1em;
+        font-family: 'Merriweather+Sans', Helvetica;
+    }
+    .forecast {
+        position: relative;
+        margin: 10px auto;
+        width: 50%;
+        color: #fff;
+        background-color: #3b5377;
+        font-size: 1em;        
+    }
+    .news {
+        width: 80%;
+        margin: 10px auto;
+        border: 2px solid #3b5377;
+        font-family: 'Sarabun', Arial;
+        font-size: 1em;
+    }
+    #winter {
+        float: right;
+        width: 40%;
+        padding: 2em 2em 2em 2em;
+    }
+    h6 {
+        font-family: 'Merriweather+Sans', Helvetica;
+        font-size: 2em;
+    } 
+    .sec3 {        
+        display: grid;        
+        grid-template-columns: auto auto;
+        justify-content: center;
+        background-color: #96e5ff;
+        padding-bottom: 2em;
+    }
+    .img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+        width: 80%;
+    }
+    #places {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 2em;
+        grid-row-gap: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    #bottom {
+        background-color: #3b5377;
+        text-align: center;
+        font-family: 'Merriweather+Sans', Helvetica;
+    }
+    #bottom p {
+        color:#fff;
+    }
+
+    /*Gallery*/
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1em auto;
+        column-gap: 20px;
+        row-gap: 1em;
+        padding-left: 4em;   
+    }
+    
+    }

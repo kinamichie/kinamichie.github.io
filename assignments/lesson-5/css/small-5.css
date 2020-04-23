@@ -1,0 +1,116 @@
+@IMPORT
+url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Merriweather+Sans|Mukta|Noto+Sans|Sarabun');
+
+* { margin: 0; box-sizing: border-box; } 
+/*@media only screen and (max-width: 767px) {*/
+
+#content {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#logo .heading {
+    display: inLine-block;
+    vertical-align: middle;
+}
+#logo {
+    position: absolute;
+    max-width: 10%;
+    top: 10px;
+    left: 10px;
+    
+}
+.heading {
+    margin: 1px auto;
+    background-color: #96e5ff;
+    height: 200px;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+h1 {
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;  
+}
+.motto {
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: .5em;
+    text-align: center;
+}
+.dropbtn {
+    background-color: #3b5377;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Merriweather+Sans', Helvetica;
+    border: none;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3b5377;
+    min-width: 200px;
+    z-index: 1;
+}
+ 
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.dropdown-content a:hover {background-color: #d69c4a;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #d69c4a;}
+ 
+nav {
+    background-color: #3b5377;
+    padding: .50em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #96e5ff;
+}
+nav a {
+    display: block;
+    color:#fff;
+    padding: 1em 1em;
+    text-decoration: none;
+    line-height: 3em;
+    
+}
+nav li {
+    list-style-type: none;
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 1.25em;
+    text-align: center;
+    border-bottom: 1px solid #96e5ff;
+}
+li:last-child {
+    border-bottom: none;
+}
+nav a:hover{
+    background-color: #d69c4a;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+nav a.current{
+    color: #3b5377;
+    background-color: #96e5ff;
+    
+}
+h3{
+    font-family: 'Merriweather+Sans', Helvetica;
+    font-size: 1em;
+    text-align: center;
+}

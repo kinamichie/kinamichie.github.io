@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Assignment lesson-4 Kina Michie CIT 230">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet"  href="css/small-9.css">
+        <link rel="stylesheet"  href="css/medium-9.css">
+        <link rel="stylesheet"  href="css/large-9.css">
+        
+        <script src="scripts/hamburger.js"></script>
+        
+        <title>Home</title>
+    </head>
+    <body>
+        <div id="content">
+            <header id="heading">               
+                    <img id="logo" src="images/weather-logo.jpg" alt="A picture of the weather site logo">
+                <div class="top">   
+                    <h1>Our Weather Forecast</h1> 
+                    <div class="motto">
+                            <h2>Rain or shine, we're here for you!</h2>
+                    </div>
+                </div>
+            </header>         
+            
+                <nav class="clearfix">
+                    <div class="dropdown"></div>
+                        <button onclick="toggleMenu()">&#9776;Menu</button>
+                    <div class="dropdown-content">
+                        <ul id="primaryNav" class="hide">
+                            <li><a class="current" href="index.html">Home</a></li>
+                            <li><a href="preston-7.html">Preston</a></li>
+                            <li><a href="sodasprings.html">Soda Springs</a></li>
+                            <li><a href="fishhaven.html">Fish Haven</a></li>
+                            <li><a href="stormcenter.html">Storm Center</a></li>
+                            <li><a href="gallery-7.html">Gallery</a></li>
+
+                        </ul>
+                    </div>               
+                 </nav>
+                 <main class="areas">
+                    <section id="places">
+
+                    </section>
+                     <script>                                       
+
+                        var section = document.getElementById('places');
+                            var requestURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
+                            var request = new XMLHttpRequest();
+                            request.open('GET', requestURL);
+                            request.responseType = 'json';
+                            request.send();
+                            request.onload = function() {
+                            var southPlace = request.response;
+                            idahoPlace(southPlace);
+                            }
+                        
+                        function idahoPlace(jsonObj) {
+                        var place = jsonObj['towns'];
+                            
+                        for (var i = 0; i < place.length; i++) {
+                            if (place[i].name=="Preston" || place[i].name=="Soda Springs" || place[i].name=="Fish Haven"){
+                            var myArticle = document.createElement('article');
+                            var myH2 = document.createElement('h2');
+                            var myH4 = document.createElement('h4');
+                            var myPara1 = document.createElement('p');
+                            var myPara2 = document.createElement('p');
+                            var myPara3 = document.createElement('p');
+                            var myPara4 = document.createElement('p');
+                            var myPicts = document.createElement('img');
+                            var myList = document.createElement('ul');
+
+                            myH2.textContent = place[i].name;
+                            myH4.textContent = place[i].motto;
+                            myPara1.textContent = 'Year Founded: ' + place[i].yearFounded;
+                            myPara2.textContent = 'Population: ' + place[i].currentPopulation;
+                            myPara3.textContent = 'Annual Rain Fall:' + place[i].averageRainfall;
+                            myPicts.src = 'images/image'+ i + '.jpeg';
+                            myPara4.textContent = 'Special Events: ';                                
+                            var placeEvents = place[i].events;
+                            for (var j = 0; j < placeEvents.length; j++) {
+                            var listItem = document.createElement('li');
+                            listItem.textContent = placeEvents[j];
+                            myList.appendChild(listItem);
+                            }
+
+                            myArticle.appendChild(myH2);
+                            myArticle.appendChild(myH4);
+                            myArticle.appendChild(myPara1);
+                            myArticle.appendChild(myPara2);
+                            myArticle.appendChild(myPara3);
+                            myArticle.appendChild(myPicts);
+                            myArticle.appendChild(myPara4);
+                            myArticle.appendChild(myList);
+
+                            section.appendChild(myArticle);
+                        }}
+                        }
+                    </script>
+                 </main>
+                 <footer class="clearfix">
+                    <div class="bottom">&copy;2019 The Weather Forecast | Kina Michie
+                        <p id="output"></p>
+                        <script src="scripts/currentdate.js"></script>
+                        
+                    </div> 
+                </footer>
+            </div>
+</body>
+</html> 
